@@ -7,3 +7,13 @@ body {
     font-family: "Montserrat";
     background-color: $body-bg-color;
 }
+.art_bottom{
+    background-color: $body-bg-color;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    width: 100%;
+}

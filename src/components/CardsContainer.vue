@@ -17,23 +17,24 @@ import CardsList from './CardsList.vue';
 </script>
 
 <template>
-    <div class="bg-light m-auto" id="container">
-        <div class="row g-3" v-for="character in store.characters">
-            <div class="col-8  col-sm-2" >
-                <CardsList id="card" :title="character.name" :species="character.archetype"/>
+    <div class="bg-light m-auto p-5" id="container">
+        <div class="row p-2 mx-1 bg-black text-white">
+            <span>Found 39 Cards</span>
+        </div>
+        <div class="row bg-light">
+                <div class="col-12 col-sm-2 g-3" v-for="character in store.characters.data.slice(0,100)">
+                    <CardsList class="px-1" id="card" :img="character.card_images[0].image_url" :title="character.name" :species="character.archetype"/>
+                </div>
             </div>
+        <div>
+            
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped> 
     #container{
-        width: 1685px;
-        height: 100vh;
+        width: 1500px;
     }
-    #card{
-        height: 200px;
-        width: 150px;
-        border: 1px solid;
-    }
+    
 </style>

@@ -11,12 +11,11 @@
 
 <template>
     <article class="text-center">
-        <!-- <div class="img"><img :src="img"></div> -->
-        <h3>{{title}}</h3>
-        <span>{{ species }}</span>
+        <div class="img"><img :src="img"></div>
+        <div class="art_bottom">
+            <h5 class="text-white">{{title}}</h5>
+        <span>{{ species }}</span> 
+        </div>
+        
     </article>
 </template>
-
-<style lang="scss" scoped>
-    
-</style>

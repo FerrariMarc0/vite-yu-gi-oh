@@ -21,7 +21,7 @@
                 
                 this.store.characters = response.data;
                 this.store.charactersFound = response.data.length;
-                console.log(this.characters);
+                console.log(store);
             })
 
         }
