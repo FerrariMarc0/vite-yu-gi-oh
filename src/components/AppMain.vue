@@ -1,13 +1,18 @@
 <script>
+import CardsContainer from './CardsContainer.vue';
+import DropdownCharacter from './DropdownCharacter.vue';
+
     export default {
-        name: 'Main'
+        name: 'Main',
+        components: {
+            DropdownCharacter,
+            CardsContainer
+        }
     }
 </script>
 
 <template>
-
+    <DropdownCharacter/>
+    <CardsContainer/>
 </template>
-
-<style lang="scss" scoped>
-
-</style>
+                AppDropdown
