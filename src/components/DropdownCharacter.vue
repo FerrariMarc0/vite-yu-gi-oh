@@ -11,8 +11,8 @@
             <select class="form-select-sm" id="search-type">
                 <option selected>- Select -</option>
                 <option value="1">Alien</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="2">Noble Knight</option>
+                <option value="3">Melodius</option>
             </select>
         </form>
     </div>

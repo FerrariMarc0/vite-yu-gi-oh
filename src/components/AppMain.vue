@@ -15,4 +15,3 @@ import DropdownCharacter from './DropdownCharacter.vue';
     <DropdownCharacter/>
     <CardsContainer/>
 </template>
-                AppDropdown
