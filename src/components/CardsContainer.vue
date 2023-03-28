@@ -19,7 +19,7 @@ import CardsList from './CardsList.vue';
 <template>
     <div class="bg-light m-auto p-5" id="container">
         <div class="row p-2 mx-1 bg-black text-white">
-            <span>Found 39 Cards</span>
+            <span>Risultano {{store.charactersFound}} carte</span>
         </div>
         <div class="row bg-light">
                 <div class="col-12 col-sm-2 mb-3" v-for="character in store.characters.slice(0,100)" :key="character.id">

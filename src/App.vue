@@ -20,7 +20,7 @@
       search(){
         axios.get('https://db.ygoprodeck.com/api/v7/cardinfo.php', {
           params: {
-            status: store.searchStatus
+            archetype: store.searchStatus
           }
         }).then((response) => {
                 
