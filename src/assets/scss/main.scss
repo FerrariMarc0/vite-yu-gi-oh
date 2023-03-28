@@ -2,7 +2,7 @@
 @use '_partials/variables' as *;
 // Import all of Bootstrap's CSS
 
-@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "bootstrap/scss/bootstrap.scss";
 body {
     font-family: "Montserrat";
     background-color: $body-bg-color;
@@ -12,7 +12,8 @@ body {
     height: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 img{
     width: 100%;

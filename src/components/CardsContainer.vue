@@ -22,8 +22,11 @@ import CardsList from './CardsList.vue';
             <span>Found 39 Cards</span>
         </div>
         <div class="row bg-light">
-                <div class="col-12 col-sm-2 g-3" v-for="character in store.characters.data.slice(0,100)">
-                    <CardsList class="px-1" id="card" :img="character.card_images[0].image_url" :title="character.name" :species="character.archetype"/>
+                <div class="col-12 col-sm-2 mb-3" v-for="character in store.characters.slice(0,100)" :key="character.id">
+                    <CardsList class="px-1" id="card"
+                    :img="character.card_images[0].image_url" 
+                    :title="character.name" 
+                    :species="character.archetype"/>
                 </div>
             </div>
         <div>

@@ -13,8 +13,8 @@
     <article class="text-center">
         <div class="img"><img :src="img"></div>
         <div class="art_bottom">
-            <h5 class="text-white">{{title}}</h5>
-        <span>{{ species }}</span> 
+            <h6 class="text-white text-uppercase fw-bolder">{{title}}</h6>
+            <span>{{ species }}</span> 
         </div>
         
     </article>

@@ -7,11 +7,16 @@ import DropdownCharacter from './DropdownCharacter.vue';
         components: {
             DropdownCharacter,
             CardsContainer
+        },
+        methods: {
+            handleSearch(){
+                this.$emit('find')
+            }
         }
     }
 </script>
 
 <template>
-    <DropdownCharacter/>
+    <DropdownCharacter @search="handleSearch"/>
     <CardsContainer/>
 </template>

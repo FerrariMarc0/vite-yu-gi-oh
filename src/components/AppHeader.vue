@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <header class="container-fluid d-flex px-5 py-2 gap-5 bg-light">
+    <header class="container-fluid d-flex px-5 py-2 gap-5 bg-light align-items-center">
         <div>Logo</div>
         <h1 class="text-center">Yu-Gi-Oh Api</h1>
     </header>
