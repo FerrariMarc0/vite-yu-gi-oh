@@ -6,6 +6,7 @@ import {store} from '../store'
             return {
                 store
             }
+            
         }
     }
 </script>
@@ -15,10 +16,21 @@ import {store} from '../store'
         <form @change="$emit('search')">
             <label for="search-type" class="d-none"></label>
             <select class="form-select-sm" id="search-type" v-model="store.searchStatus">
-                <option selected value="">- Select -</option>
+                <option>- Select -</option>
                 <option>Alien</option>
-                <option>Noble Knight</option>
-                <option>Melodius</option>
+                <option>Abyss Actor</option>
+                <option>Abyss Script</option>
+                <option>Blaze Accelerator</option>
+                <option>Cloudian</option>
+                <option>Destiny HERO</option>
+                <option>Empowered Warrior</option>
+                <option>Fire King</option>
+                <option>Gate Guardian</option>
+                <option>Heroic</option>
+                <option>Jinzo</option>
+                <option>Knightmare</option>
+                <option>Lady of Lament</option>
+                <option>Magician</option>
             </select>
         </form>
     </div>
